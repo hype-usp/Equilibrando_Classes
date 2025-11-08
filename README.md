@@ -48,6 +48,7 @@ Membros:
 
 Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
+Link para [Notebook](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb)
 Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/RelatorioFinal.pdf)
 ## Grupo 2
 Membros:
