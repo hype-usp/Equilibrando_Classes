@@ -47,6 +47,8 @@ Membros:
 - Rebecka Bocci
 
 Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/RelatorioFinal.pdf)
 ## Grupo 2
 Membros:
 - [Enzo Brilhante](https://github.com/EnzoBMattos)
@@ -56,6 +58,7 @@ Dataset: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-
 
 A variável alvo desse dataset foi 'Churn' que indica se o cliente cancelou ou não serviço com a empresa. 74% das linhas do dataset apontavam essa classe como falsa, caracterizando o desbalanceamento.
 
+Link para [Notebook](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo2/EquilibrandoClasses2.ipynb)
 Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo2/RelatorioFinal.pdf)
 
 (Referências podem ser encontradas no relatório final)
