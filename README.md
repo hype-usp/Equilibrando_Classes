@@ -49,8 +49,8 @@ Membros:
 
 Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-Link para [Notebook 1](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb) e para [Notebook 2](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb).
-Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/RelatorioFinal.pdf).
+Link para [Notebook 1](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/notebook-1.ipynb) e para [Notebook 2](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/notebook-2.ipynb).
+Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/relatorio-final-4.pdf).
 
 notebook-1.ipynb => Neste foram usados os métodos SMOTE, ENN e SMOTE-ENN;\
 notebook-2.ipynb => Neste foram usados os métodos SMOTE, Random Oversampling e Random Undersampling.
@@ -65,33 +65,42 @@ notebook-2.ipynb => Neste foram usados os métodos SMOTE, Random Oversampling e 
 Gráficos são salvos em suas devidas pastas. Além das métricas serem anotadas no aqruivo resultados.xlsx.
 
 
-  /projeto\
-    │\
-    ├── modelos\
-    │     ├── KNN \
-    │     │   ├── matriz-confusao-KNN-Desbalanceado.png\
-    │     │   ├── auc-roc-KNN-Desbalanceado.png\
-    │     │   ├── precision-recall-KNN-Desbalanceado.png\
-    │     │   ├── matriz-confusao-KNN-SMOTE.png\
-    │     │   ├── auc-roc-KNN-SMOTE.png\
-    │     │   ├── precision-recall-KNN-SMOTE.png\
-    |     |   ├── matriz-confusao-KNN-ENN.png\
-    │     │   ├── auc-roc-KNN-ENN.png\
-    │     │   ├── precision-recall-KNN-ENN.png\
-    |     |   ├── matriz-confusao-KNN-SOMTE-ENN.png\
-    │     │   ├── auc-roc-KNN-SMOTE-ENN.png\
-    │     │   └── precision-recall-KNN-SMOTE-ENN.png\
-    │     └── ...\
-    │\
-    ├── graphics\
-    │     ├── countplot.png\
-    │     └── heatmap-corr.png\
-    │\
-    |\
-    ├── resultados.xlsx\
-    │\
-    ├── notebook-1.ipynb\
+    /projeto
+    │
+    ├── modelos
+    │     ├── <model>
+    │     │   ├── matriz-confusao-<model>-Desbalanceado.png
+    │     │   ├── auc-roc-<model>-Desbalanceado.png
+    │     │   ├── precision-recall-<model>-Desbalanceado.png
+    │     │   ├── matriz-confusao-<model>-SMOTE.png
+    │     │   ├── auc-roc-<model>-SMOTE.png
+    │     │   ├── precision-recall-<model>-SMOTE.png
+    |     |   ├── matriz-confusao-<model>-ENN.png
+    │     │   ├── auc-roc-<model>-ENN.png
+    │     │   ├── precision-recall-<model>-ENN.png
+    |     |   ├── matriz-confusao-<model>-SOMTE-ENN.png
+    │     │   ├── auc-roc-<model>-SMOTE-ENN.png
+    │     │   └── precision-recall-<model>-SMOTE-ENN.png
+    │     └── ...
+    │   └── ...
+    |   └── auc-roc-curve-<metodo>.png
+    │   └── ...
+    |   └── pr-recall-curve-<metodo>.png
+    │   └── ...
+    │   └── auc-roc-curve-notebook-2.png
+    │   └── pr-recall-curve-notebook-2.png
+    │
+    ├── graphics
+    │   ├── countplot.png
+    │   └── heatmap-corr.png
+    │
+    |
+    ├── resultados.xlsx
+    │
+    ├── notebook-1.ipynb
     └── notebook-2.ipynb
+
+
 
 
 
