@@ -42,14 +42,59 @@ A terceira etapa consistiu em refletir sobre os resultados obtidos ao fim do pro
 
 ## Grupo 1
 Membros:
-- Caique Sidrão
-- Gabriel Lima
-- Rebecka Bocci
+- **[Caique Sidrão](https://www.linkedin.com/in/caique-sidr%C3%A3o/)**
+- **[Gabriel Lima](https://www.linkedin.com/in/gabriel-costenaro-lima-6a5a2a356/)**
+- **[Rebecka Bocci](https://www.linkedin.com/in/rebecka-bocci-domingues-399157325/)**
+
 
 Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-Link para [Notebook](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb)
-Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/RelatorioFinal.pdf)
+Link para [Notebook 1](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb) e para [Notebook 2](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/EquilibrandoClasses1.ipynb).
+Link para [Relatório Final](https://github.com/hype-usp/Equilibrando_Classes/blob/main/Grupo1/RelatorioFinal.pdf).
+
+notebook-1.ipynb => Neste foram usados os métodos SMOTE, ENN e SMOTE-ENN;\
+notebook-2.ipynb => Neste foram usados os métodos SMOTE, Random Oversampling e Random Undersampling.
+
+### Tecnologias adicionais
+- **[Openpyxl](https://openpyxl.readthedocs.io/en/stable/)** => criação da planilha com as métricas;
+- **[OS](https://docs.python.org/3/library/os.html)** => criação de pastas.
+
+### Métricas adicionias
+- *Curva de Precisão-Recall*
+
+Gráficos são salvos em suas devidas pastas. Além das métricas serem anotadas no aqruivo resultados.xlsx.
+
+
+  /projeto\
+    │\
+    ├── modelos\
+    │     ├── KNN \
+    │     │   ├── matriz-confusao-KNN-Desbalanceado.png\
+    │     │   ├── auc-roc-KNN-Desbalanceado.png\
+    │     │   ├── precision-recall-KNN-Desbalanceado.png\
+    │     │   ├── matriz-confusao-KNN-SMOTE.png\
+    │     │   ├── auc-roc-KNN-SMOTE.png\
+    │     │   ├── precision-recall-KNN-SMOTE.png\
+    |     |   ├── matriz-confusao-KNN-ENN.png\
+    │     │   ├── auc-roc-KNN-ENN.png\
+    │     │   ├── precision-recall-KNN-ENN.png\
+    |     |   ├── matriz-confusao-KNN-SOMTE-ENN.png\
+    │     │   ├── auc-roc-KNN-SMOTE-ENN.png\
+    │     │   └── precision-recall-KNN-SMOTE-ENN.png\
+    │     └── ...\
+    │\
+    ├── graphics\
+    │     ├── countplot.png\
+    │     └── heatmap-corr.png\
+    │\
+    |\
+    ├── resultados.xlsx\
+    │\
+    ├── notebook-1.ipynb\
+    └── notebook-2.ipynb
+
+
+
 ## Grupo 2
 Membros:
 - [Enzo Brilhante](https://github.com/EnzoBMattos)
